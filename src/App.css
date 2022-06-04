@@ -1,0 +1,63 @@
+* {
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-top: 6%;
+  }
+  
+  .App {
+	background-color: #FF9142;
+	margin-left: 50px;
+	margin-top: 100px;
+	height: 2vh;
+	width: 3vw;
+	text-align: center;
+	vertical-align: bottom;
+	display: inline-block;
+  }
+  
+  .button {
+	color: #fff;
+	margin-left: 50px;
+	background-color: #1E272E;
+	padding: 10px 30px;
+	cursor: pointer;
+  }
+
+  .buttons {
+	  background-color: rgb(123, 15, 123);
+	  color: #fff;
+	  padding: 10px 30px;
+	  border: none;
+	  cursor: pointer;
+  }
+  
+  .input {
+	margin-left: 50px;
+	padding: 8px 5px;
+  }
+
+  #graph {
+	  text-align: center;
+	  margin-top: 3vh;
+  }
+
+  #reset {
+	background-color: rgb(5, 133, 43);
+	color: #fff;
+	margin-left: 50px;
+	padding: 13px 30px;
+	border: none;
+	cursor: pointer;
+  }
+  
